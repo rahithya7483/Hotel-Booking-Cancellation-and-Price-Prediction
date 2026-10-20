@@ -1,0 +1,8 @@
+model,mae_mean,mae_std,rmse_mean,rmse_std,r2_mean,r2_std,complexity_rank,within_1_std_of_best,chosen
+Linear Regression,21.9184,0.1782,29.3787,0.4864,0.6573,0.0091,1,False,False
+Ridge (tuned alpha),21.9141,0.1747,29.3934,0.4768,0.6569,0.0089,1,False,False
+Lasso (tuned alpha),21.9136,0.1749,29.3896,0.4809,0.657,0.0089,1,False,False
+Ridge + log target,21.7366,0.2586,30.4795,0.6414,0.6311,0.0141,2,False,False
+Ridge + log target + hotel x month,15.7636,0.2046,22.9317,0.6191,0.7911,0.0098,2,False,False
+Random Forest + hotel x month,11.4701,0.2176,18.1147,0.6792,0.8696,0.0086,3,True,True
+Random Forest + hotel x month + log target,11.7297,0.1824,18.6062,0.6021,0.8625,0.0076,3,True,False
